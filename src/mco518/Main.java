@@ -1,14 +1,14 @@
 package mco518;
 
-import java.util.Arrays;
-import java.util.HashSet;
-
 /**
  * @author Benny Ioschikhes
  */
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(RobinKarpSearch.searchForSubstring("abdeabc", "abc"));
+//        int[] array = {1, -3, 2, 1, -1};
+        int[] array = {-1, 0, 1, 2, -4};
+        
+        System.out.println("maxSubArray: " + KadaneMaxSubArray.findMaxSubArray2(array));
     }
 }

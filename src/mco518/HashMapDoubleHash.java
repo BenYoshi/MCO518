@@ -1,12 +1,10 @@
 package mco518;
 
-import java.util.Arrays;
-
 /**
  * @author Benny Ioschikhes
  */
 public class HashMapDoubleHash {
-    private int[] backingArray;
+    private final int[] backingArray;
 
     public HashMapDoubleHash(int... numbers) {
         backingArray = new int[numbers.length];

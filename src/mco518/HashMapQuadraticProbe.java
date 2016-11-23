@@ -5,7 +5,7 @@ package mco518;
  */
 public class HashMapQuadraticProbe {
     
-    private int[] backingArray;
+    private final int[] backingArray;
 
     public HashMapQuadraticProbe(int... numbers) {
         backingArray = new int[numbers.length];

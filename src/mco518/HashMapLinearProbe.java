@@ -1,11 +1,12 @@
 package mco518;
 
 /**
+ * O(n^2)
  * @author Benny Ioschikhes
  */
 public class HashMapLinearProbe {
 
-    private int[] backingArray;
+    private final int[] backingArray;
 
     public HashMapLinearProbe(int... numbers) {
         backingArray = new int[numbers.length];

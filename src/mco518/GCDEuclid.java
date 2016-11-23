@@ -1,6 +1,7 @@
 package mco518;
 
 /**
+ * O(n)
  * @author Benny Ioschikhes
  */
 public class GCDEuclid {

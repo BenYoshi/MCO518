@@ -3,6 +3,7 @@ package mco518;
 import java.util.Arrays;
 
 /**
+ * O(n)
  * @author Benny Ioschikhes
  */
 public class HornersRule {
